@@ -1,0 +1,4 @@
+<form action="#" (ngSubmit)="onCreate($event)">
+  <input type="text" name="name" [(ngModel)]="name" placeholder="name">
+  <button [disabled]="!name">Create new Todo</button>
+</form>
